@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  margin-left: auto;
+}
+.navbar-brand img{
+
+  width: 200px;
+
+}
+img.card-img-top{
+  height: 300px;
+
+}
+.navbar{
+  background-color: #fff;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(41, 75, 255, 0.9) !important;
+}
+.navbar a{
+  font-size: 18px;
+}
+.manu_active{
+
+  font-weight: bold;
+  border-bottom: 1px solid rgb(56, 126, 255);
+}
+#header{
+  height: 80vh;
+}
+#header h1{
+
+  font-size: 45px;
+}
+
+.btn-get-started{
+
+  border: 2px solid rgb(77, 77, 245);
+  border-radius: 7px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: 0.5s;
+  
+}
+.btn-get-started:hover{
+
+  background-color: rgb(77, 77, 245);
+  color: white;
+  
+}
+.brand-name{
+
+  color:  rgb(77, 77, 245);
+}
+/* up down img  */
+img.vert-move {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate-reverse;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+.bg-color{
+  background-color: rgb(80, 77, 77);
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+.bg-color p{
+  padding: 10px 0px 10px 0px;
+}

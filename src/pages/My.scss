@@ -1,0 +1,40 @@
+
+.header{
+
+   overflow: hidden;
+   width: 100%;
+   padding: 15px;
+   background-color: rgba(58, 56, 56, 0.507);
+}
+#image{
+
+   float: left;
+   width: 60px;
+   height: 60px;
+
+
+}
+#ul{
+
+   overflow: hidden;
+   width: 304px;
+   float: right;
+   
+}
+.li{
+   list-style: none;
+   float: left;
+   margin-right: 20px;
+   font-size: 20px;
+   font-weight: 500;
+   background-color: tomato;
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+   transition: 0.5s;
+
+}
+.li:hover{
+
+   transform: scale(1.1);
+}
